@@ -1,0 +1,84 @@
+/*
+Theme Name: prueba-asdrubal-jairo-sanchez
+Author: Jairo Sánchez
+Description: Tema WordPress personalizado inspirado en canvas digital sin scroll vertical.
+Version: 1.5
+*/
+
+:root {
+    --primary-color: #13131f;
+    --secondary-color: #1f1f2e;
+    --accent-color: #2c98f0;
+    --text-light: #f1f1f1;
+    --text-dark: #111;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--primary-color);
+    color: var(--text-light);
+}
+
+header {
+    background: var(--secondary-color);
+    padding: 3rem 2rem;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: var(--accent-color);
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    background: #fff;
+    color: var(--text-dark);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    margin-bottom: 1rem;
+}
+
+section:last-child {
+    margin-bottom: 0;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}
+
+footer {
+    background: var(--secondary-color);
+    color: var(--text-light);
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}

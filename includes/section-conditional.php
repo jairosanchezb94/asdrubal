@@ -1,0 +1,1 @@
+<section><h2>Sección Condicional</h2><p>Esta sección aparece si el condicional es verdadero.</p></section>

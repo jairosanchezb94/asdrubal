@@ -1,0 +1,1 @@
+<section><h2>Sección 2</h2><p>Lorem ipsum dolor sit amet, sección 2.</p></section>
